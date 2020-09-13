@@ -19,7 +19,6 @@ function App() {
         <Route path="/contact" component={Contact} />
 
         <div className="navigation">
-          <img src={logo} className="logo-image" alt="Logo Image" />
           <div className="navigation-sub">
             <Link to="/" className="item">Home</Link>
             <Link to="/about" className="item">About</Link>
