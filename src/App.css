@@ -120,6 +120,7 @@ a:hover {
   height: 100vh;
   position: relative;
   color: #fff;
+  background-image: url(assets/home_bg.jpg)
 }
 
 .home .home-content {
@@ -139,7 +140,7 @@ a:hover {
   padding: 0;
   height: 100%;
   width: 100%;
-  opacity: .85;
+  opacity: .9;
 }
 
 .home .home-title {
@@ -199,7 +200,11 @@ a:hover {
   display: flex;
 }
 
-.social-icon ul li{
+.social-icon ul li {
+  list-style-type: none;
+}
+
+.social-icon ul li a {
   display: block;
   cursor: pointer;
   position: relative;
@@ -215,7 +220,7 @@ a:hover {
   transition: .3s;
 }
 
-.social-icon ul li:before{
+.social-icon ul li a:before {
   position: absolute;
   content: '';
   top: 0;
@@ -228,35 +233,17 @@ a:hover {
   transition: .3s;
 }
 
-.social-icon ul li:hover:before {
+.social-icon ul li a:hover:before {
   filter: blur(3px);
   transform: scale(1.2);
   box-shadow: 0 0 15px whitesmoke;
 }
 
-.social-icon ul li:hover {
+.social-icon ul li a:hover {
   color: whitesmoke;
   box-shadow: 0 0 15px whitesmoke;
   text-shadow: 0 0 15px whitesmoke;
   transform: translate(0, -5px);
 }
-/*.social-icon ul li a{
-  color: #fff;
-}*/
 
-/*.fa {
-  padding: 15px;
-  font-size: 30px;
-  width: 15px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-  background: #000000;
-  color: white;
-}
-
-.fa:hover {
-  opacity: 0.7;
-}*/
 
