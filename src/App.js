@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Route, Link } from 'react-router-dom'; 
+import Navigation from './components/Navigation';
 import Home from './Home';
 import About from './About';
 import Blog from './Blog';
@@ -12,21 +13,11 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/blog" component={Blog} />
-        <Route path="/cv" component={Resume} />
-        <Route path="/contact" component={Contact} />
-
-        <div className="navigation">
-          <div className="navigation-sub">
-            <Link to="/" className="item">Home</Link>
-            <Link to="/about" className="item">About</Link>
-            <Link to="/blog" className="item">Blog</Link>
-            <Link to="/cv" className="item">CV</Link>
-            <Link to="/contact" className="item">Contact</Link>
-          </div>
-        </div>
+        <Navigation />
+        <Home />
+        <About />
+        <Blog />
+        <Contact />
       </div>
     </BrowserRouter>
   );
