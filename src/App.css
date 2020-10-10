@@ -112,6 +112,17 @@ a:hover {
   vertical-align: middle;
 }
 
+.page-title {
+  text-align: center;
+  text-transform: uppercase;
+  color: #1B1B1B;
+  font-weight: 600;
+}
+
+.page {
+  margin-top: 100px;
+	margin-bottom: 100px;
+}
 /*======================================
 //--//-->   NAVIGATION
 ======================================*/
@@ -230,6 +241,7 @@ a:hover {
 .navbar-b .dropdown-menu {
   margin: 1.12rem 0 0;
   border-radius: 0;
+  background-color: #1b1b1b;
 }
 
 .navbar-b .dropdown-menu .dropdown-item {
@@ -256,9 +268,15 @@ a:hover {
 .navbar-b.navbar-reduce .nav-link:before {
   margin-left: 18px;
 }
+
+#navbarDefault.ncl {
+  background-color: tomato;
+}
+#navbarDefault {
+  background-color: transparent;
+}
 */
 /*--/ Hamburger Navbar /--*/
-
 .navbar-toggler {
   position: relative;
 }
@@ -446,4 +464,109 @@ a:hover {
   transform: translate(0, -5px);
 }
 
+/*======================================
+//--//-->   ABOUT
+======================================*/
 
+@media screen and (max-width: 991px){
+  .about-image{
+   text-align: center;
+ }
+}
+
+.gutters-80.row{
+  margin-right: -40px;
+  margin-left: -40px;
+  margin-top: 50px;
+}
+
+.gutters-80 > [class^="col-"], .gutters-80 > [class^="col-"]{
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.about-image {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.about-content {
+  
+}
+
+.about-description {
+  font-size: 16px;
+  color: #636262;
+  padding-bottom: 25px;
+  border-bottom: 1px #C1C1C1 dashed;
+  display: block;
+}
+
+.about-bio{
+  font-size: 16px;
+  color: #636262;
+}
+
+.about-bio strong{
+  font-size: 15px;
+  color: #2c4055;
+}
+
+.img-shadow {
+    background-color: #fff;
+    z-index: 2;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 7px 0 rgba(0, 0, 0, 0.6);
+}
+
+.box-shadow-full {
+  padding: 3rem 1.25rem;
+  position: relative;
+  background-color: #fff;
+  margin-bottom: 3rem;
+  z-index: 2;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.about-button {
+  width: 160px;
+}
+
+.skill-box {
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  color: #212529;
+  background-color: #e4e4e4;
+  font-size: 85%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  margin: 5px;;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+/*======================================
+//--//-->   FOOTER
+======================================*/
+.page-footer,.top-nav-collapse {
+  background-color:#16181b;
+  bottom: 0;
+    color: #fff;
+}
+
+.footer-copyright {
+  overflow: hidden;
+  color: rgba(255,255,255,0.6);
+  background-color:  #16181b;;
+}
+
+footer.page-footer a {
+  color: #fff;
+}
+
+.mb-4, .my-4 {
+  margin-bottom: 1.0rem!important;
+}

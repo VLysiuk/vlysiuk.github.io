@@ -8,6 +8,7 @@ import About from './About';
 import Blog from './Blog';
 import Resume from './Resume';
 import Contact from './Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <About />
         <Blog />
         <Contact />
+        <Footer />
       </div>
     </BrowserRouter>
   );
