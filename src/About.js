@@ -30,6 +30,7 @@ const About = (props) => {
                   <span class="skill-box">Scalability   <i className="fa fa-tag"></i></span>
                   <span class="skill-box">High-load   <i className="fa fa-tag"></i></span>
                   <span class="skill-box">Quality Assurance    <i className="fa fa-tag"></i></span>
+                  <span class="skill-box">.NET    <i className="fa fa-tag"></i></span>
                 </div>
             </div>
             <div class="col-md-6 about-content">

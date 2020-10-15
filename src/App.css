@@ -538,7 +538,7 @@ a:hover {
   color: #212529;
   background-color: #e4e4e4;
   font-size: 85%;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1;
   text-align: center;
   white-space: nowrap;
@@ -546,6 +546,27 @@ a:hover {
   border-radius: 0.25rem;
   margin: 5px;;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+/*======================================
+//--//-->   SERVICES
+======================================*/
+.service-box {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  -webkit-transition: border .2s ease-in-out;
+  -o-transition: border .2s ease-in-out;
+  transition: border .2s ease-in-out;
+}
+
+.service-label {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /*======================================

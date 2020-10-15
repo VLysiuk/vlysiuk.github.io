@@ -6,8 +6,7 @@ import Navigation from './components/Navigation';
 import Home from './Home';
 import About from './About';
 import Blog from './Blog';
-import Resume from './Resume';
-import Contact from './Contact';
+import Services from './Services';
 import Footer from './components/Footer';
 
 function App() {
@@ -17,8 +16,8 @@ function App() {
         <Navigation />
         <Home />
         <About />
+        <Services />
         <Blog />
-        <Contact />
         <Footer />
       </div>
     </BrowserRouter>
