@@ -2,7 +2,8 @@ import React from "react"
  
 const Services = (props) => {
   return (
-    <div class="container page" id="service">
+    <div class="page gray-page" id="service">
+    <div class="container" >
       <h3 class="page-title">Services</h3>
       <div class="row gutters-80">
           <div class="col-md-4">
@@ -38,6 +39,7 @@ const Services = (props) => {
           </div>
           <div class="col-md-4"></div>
       </div>
+    </div>
     </div>
   )
 }

@@ -2,15 +2,14 @@ import React, {useState, useLayoutEffect}  from "react"
 import "bootstrap/dist/css/bootstrap.css";
  
 const Footer = (props) => {
-    return(
-        <footer class="page-footer text-center font-small mt-4 wow fadeIn" id="contact">
-
+    return(        
+        <footer class="page-footer text-center font-small wow fadeIn" id="contact">
         <div class="pt-4">
             <p><i class="fa fa-phone mr-3"></i>+38 097 941 91 22</p>
             <p><i class="fa fa-envelope mr-3"></i>volodymyr.lysiuk@gmail.com</p>
         </div>
 
-        <hr class="my-4" />
+        <hr class="footer-line" />
 
         <div class="pb-1">
         <a href="https://www.facebook.com/volodymyr.lysiuk/" target="_blank" rel="noopener noreferrer">
