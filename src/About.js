@@ -35,11 +35,9 @@ const About = (props) => {
                   </div>
               </div>
               <div class="col-md-6 about-content">
-                <p class="about-description">Certified Agile practitioner and software developer with 10+ years of professional experience.
-                  Have a good understanding of software development life cycle(SDLC), Agile process and practices that
-                  includes managing product backlog, release plannings and delivering products to production.
-                  I have experience in building scalable and hi-load applications, have a strong knowledge of design principles and object oriented programming.
-                  Like to lead and inspire people, manage complex issues and deliver the high-quality products to the customers. </p>
+                <p>I am all-in into managing complex issues and deliver the high-quality products. Being a software developer for more than 12 years, I have built the good engineering base and SDLC understanding. I have been working on building scalable and hi-load applications, have a strong knowledge of design principles and object oriented programming, understand infrastructure and quality assurance.</p>
+                <p>As a manager I enjoy empowering and inspiring people, building strong teams and culture within organisation. I trully believe in leadership by example, and think that success comes with honesty, dedication and hard work.</p>
+                <p class="about-description">I am a PMI certified Agile practitioner and certified Scrum Master, also investing time in learning other areas such as people managemet, project managemet, finance.</p>
                 <div class="row">
                   <div class="col-md-5">
                     <a class="btn btn-outline-dark about-button" href="V.Lysiuk_CV_current.pdf">DOWNLOAD CV</a>
