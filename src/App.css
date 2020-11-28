@@ -507,7 +507,6 @@ a:hover {
 
 .about-description {
   font-size: 16px;
-  color: #636262;
   padding-bottom: 25px;
   border-bottom: 1px #C1C1C1 dashed;
   display: block;
@@ -542,6 +541,10 @@ a:hover {
   width: 160px;
 }
 
+.about-skills {
+  margin-top: 10px;
+}
+
 .skill-box {
   display: inline-block;
   padding: 0.25em 0.4em;
@@ -556,6 +559,24 @@ a:hover {
   border-radius: 0.25rem;
   margin: 5px;;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.skill-box1 {
+  list-style: none;
+  
+  padding-left: 20px;
+}
+
+.skill-box2 {
+  border-right: 1px #C1C1C1 dashed;
+  margin: 0;
+}
+
+.skill-border {
+  border: 1px solid #000000;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 10px;
 }
 
 /*======================================

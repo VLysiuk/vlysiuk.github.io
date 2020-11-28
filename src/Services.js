@@ -10,7 +10,7 @@ const Services = (props) => {
             <div class="service-box text-center">
               <span><i className="fa fa-laptop fa-5x"></i></span>
               <h5 class="service-label">ENGINEERING</h5>
-              <p class="text-justify px-3">Establishing and maintaining the best engineering practices. Building proper development lifecycle. Helping with technical decisions and architecture.</p>
+              <p class="text-justify px-3">Establishing and maintaining the best engineering practices, code standard, CI/CD, test automation. Building SDLC from scratch. Helping with technical decisions and architecture.</p>
             </div>
           </div>
           <div class="col-md-4">

@@ -1,4 +1,6 @@
 import React from "react"
+import Carousel, { Dots, slidesToShowPlugin } from '@brainhubeu/react-carousel';
+import '@brainhubeu/react-carousel/lib/style.css';
 
 const About = (props) => {
   return (
@@ -17,22 +19,47 @@ const About = (props) => {
                     <p class="about-bio"><strong>LOCATION :</strong> Kyiv, Ukraine</p>
                   </div>
                 </div>
-                  <p class="about-bio"><strong>SKILLS</strong></p>
-                  <div>
-                    <span class="skill-box">Engineering   <i className="fa fa-tag"></i></span>
-                    <span class="skill-box">People Management   <i className="fa fa-tag"></i></span>
-                    <span class="skill-box">Agile   <i className="fa fa-tag"></i></span>
-                    <span class="skill-box">Software Development   <i className="fa fa-tag"></i></span>
-                    <span class="skill-box">Project Management   <i className="fa fa-tag"></i></span>
-                    <span class="skill-box">Product Delivery   <i className="fa fa-tag"></i></span>
-                    <span class="skill-box">Leadership   <i className="fa fa-tag"></i></span>
-                    <span class="skill-box">SDLC   <i className="fa fa-tag"></i></span>
-                    <span class="skill-box">Architecture   <i className="fa fa-tag"></i></span>
-                    <span class="skill-box">Scalability   <i className="fa fa-tag"></i></span>
-                    <span class="skill-box">High-load   <i className="fa fa-tag"></i></span>
-                    <span class="skill-box">Quality Assurance    <i className="fa fa-tag"></i></span>
-                    <span class="skill-box">.NET    <i className="fa fa-tag"></i></span>
-                  </div>
+                  <p class="about-bio about-skills text-center"><strong>CORE COMPETENCIES</strong></p>
+                  <div class="row">
+                    <div class="col-md-6 skill-box2">
+                    <ul class="skill-box1">
+                        <li>
+                          <span class="skill-item"><i className="fa fa-check"></i> People management</span>
+                        </li>
+                        <li>
+                        <span class="skill-item"><i className="fa fa-check"></i> Project Management</span>
+                        </li>
+                          <span class="skill-item"><i className="fa fa-check"></i> Leadership</span>
+                        <li>
+                          <span class="skill-item"><i className="fa fa-check"></i> Communication</span>
+                        </li>
+                        <li>
+                          <span class="skill-item"><i className="fa fa-check"></i> Problem solving</span>
+                        </li>
+                        </ul>
+                        
+                      </div>
+                      <div class="col-md-6">
+                      <ul class="skill-box1">
+                        <li>
+                          <span class="skill-item"><i className="fa fa-check"></i> Software Development</span>
+                        </li>
+                        <li>
+                          <span class="skill-item"><i className="fa fa-check"></i> Software Analysis &amp; Design</span>
+                        </li>
+                        <li>
+                          <span class="skill-item"><i className="fa fa-check"></i> High-load solutions</span>
+                        </li>
+                        <li>
+                          <span class="skill-item"><i className="fa fa-check"></i> CI/CD</span>
+                        </li>
+                        <li>
+                          <span class="skill-item"><i className="fa fa-check"></i> Test Automation</span>
+                        </li>
+                        </ul>
+                      </div>
+                    </div>
+                  
               </div>
               <div class="col-md-6 about-content">
                 <p>I am all-in into managing complex issues and deliver the high-quality products. Being a software developer for more than 12 years, I have built the good engineering base and SDLC understanding. I have been working on building scalable and hi-load applications, have a strong knowledge of design principles and object oriented programming, understand infrastructure and quality assurance.</p>
