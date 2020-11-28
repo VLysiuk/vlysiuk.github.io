@@ -8,6 +8,7 @@ import About from './About';
 import Blog from './Blog';
 import Services from './Services';
 import Footer from './components/Footer';
+import Certificates from './Certificates';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Navigation />
         <Home />
         <About />
+        <Certificates />
         <Services />
         <Blog />
         <Footer />

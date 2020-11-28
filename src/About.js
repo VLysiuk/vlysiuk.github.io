@@ -1,6 +1,4 @@
 import React from "react"
-import Carousel, { Dots, slidesToShowPlugin } from '@brainhubeu/react-carousel';
-import '@brainhubeu/react-carousel/lib/style.css';
 
 const About = (props) => {
   return (
