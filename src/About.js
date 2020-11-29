@@ -61,7 +61,7 @@ const About = (props) => {
               </div>
               <div class="col-md-6 about-content">
                 <p>I am all-in into managing complex issues and deliver the high-quality products. Being a software developer for more than 12 years, I have built the good engineering base and SDLC understanding. I have been working on building scalable and hi-load applications, have a strong knowledge of design principles and object oriented programming, understand infrastructure and quality assurance.</p>
-                <p>As a manager I enjoy empowering and inspiring people, building strong teams and culture within organisation. I trully believe in leadership by example, and think that success comes with honesty, dedication and hard work.</p>
+                <p>As a manager I enjoy empowering and inspiring people, building strong teams and culture within organization. I truly believe in leadership by example, and think that success comes with honesty, dedication and hard work.</p>
                 <p class="about-description">I am a PMI certified Agile practitioner and certified Scrum Master, also investing time in learning other areas such as people managemet, project managemet, finance.</p>
                 <div class="row">
                   <div class="col-md-5">
