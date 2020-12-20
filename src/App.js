@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Route, Link } from 'react-router-dom'; 
@@ -9,8 +9,15 @@ import Blog from './Blog';
 import Services from './Services';
 import Footer from './components/Footer';
 import Certificates from './Certificates';
+import ReactGA from 'react-ga';
 
 function App() {
+
+  useEffect(() => {
+    ReactGA.initialize('G-PJL929E44N');
+    ReactGA.pageview(window.location.pathname);
+  })
+
   return (
     <BrowserRouter>
       <div className="App">
