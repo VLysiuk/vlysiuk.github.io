@@ -5,7 +5,7 @@ import { BrowserRouter, Route, Link } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import Home from './Home';
 import About from './About';
-import Blog from './Blog';
+import Podcast from './Podcast';
 import Services from './Services';
 import Footer from './components/Footer';
 import Certificates from './Certificates';
@@ -26,7 +26,7 @@ function App() {
         <About />
         <Certificates />
         <Services />
-        <Blog />
+        <Podcast />
         <Footer />
       </div>
     </BrowserRouter>

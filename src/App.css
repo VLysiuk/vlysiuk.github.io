@@ -606,27 +606,67 @@ a:hover {
 }
 
 /*======================================
-//--//-->   BLOG
+//--//-->   PODCAST
 ======================================*/
 
-.blog-box {
-  display: block;
-  margin-bottom: 20px;
-  line-height: 1.42857143;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  -webkit-transition: border .2s ease-in-out;
-  -o-transition: border .2s ease-in-out;
-  transition: border .2s ease-in-out;
+.img-social-icon{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.blog-img {
+.img-social-icon ul {
+  display: flex;
+}
+
+.img-social-icon ul li {
+  list-style-type: none;
+}
+
+.img-social-icon ul li a {
   display: block;
+  cursor: pointer;
+  position: relative;
+  border-radius: 50%;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  margin: 5px 8px;
+  transition: .3s;
+}
+.img-social-icon ul li a img {
+  height: 30px;
+  width: 30px;
+  background-size: cover;
+  background-color: transparent;
+}
+
+.img-social-icon ul li a:before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  height: 100%;
   width: 100%;
-  height: auto;
-  margin-right: auto;
-  margin-left: auto;
+  border-radius: 50%;
+  background-color: #92ce00;
+  z-index: -1;
+  transform: scale(0.9);
+  transition: .3s;
+}
+
+.img-social-icon ul li a:hover:before {
+  filter: blur(3px);
+  transform: scale(1.2);
+  box-shadow: 0 0 15px rgb(45, 154, 51);
+}
+
+.img-social-icon ul li a:hover {
+  color: whitesmoke;
+  box-shadow: 0 0 15px rgb(45, 154, 51);
+  text-shadow: 0 0 15px rgb(45, 154, 51);
+  transform: translate(0, -5px);
 }
 
 /*======================================

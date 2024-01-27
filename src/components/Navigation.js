@@ -41,7 +41,7 @@ const Navigation = (props) => {
                 <a class="nav-link" href="#service">Services</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#blog">BLOG</a>
+                <a class="nav-link" href="#podcast">PODCAST</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#contact">CONTACTS</a>
