@@ -62,7 +62,7 @@ const About = (props) => {
               <div class="col-md-6 about-content">
                 <p>I am an experienced engineering leader with a strong technical background. I am all-in into managing complex issues and delivering high-quality products and customer value.</p>
                 <p>Being a software developer for more than 12 years, I have built the good engineering base and understanding of SDLC. I have been working on building scalable and hi-load applications, have a strong knowledge of design principles and object oriented programming, understand infrastructure and quality assurance.</p>
-                <p class="about-description">For the past 7 years, I have been working as an engineering manager, managing teams from 4 to 15 people. As a manager, I enjoy empowering and inspiring people, and building strong teams and culture within the organization. I truly believe in leadership by example and think that success comes with honesty, dedication, and hard work.</p>
+                <p class="about-description">For the past 8 years, I have been working as an engineering manager, managing teams from 4 to 25 people. As a manager, I enjoy empowering and inspiring people, and building strong teams and culture within the organization. I truly believe in leadership by example and think that success comes with honesty, dedication, and hard work.</p>
                 <div class="row">
                   <div class="col-md-5">
                     <a class="btn btn-outline-dark about-button" href="V.Lysiuk_CV_current.pdf">DOWNLOAD CV</a>
